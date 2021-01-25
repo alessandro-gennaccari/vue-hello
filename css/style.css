@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inconsolata', monospace;
+}
+
+#hello {
+    height: 100vh;
+    position: relative;
+}
+
+.inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.logo {
+    height: 250px;
+}
+
+button {
+    margin-top: 50px;
+    cursor: pointer;
+    border: 1px solid #35495e;
+    text-transform: uppercase;
+    font-weight: bolder;
+    background-color: #41b883;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+.white {
+    color: #ddd;
+}
+
+.black {
+    color: #000000d6;
+}
+
+.bgc-white {
+    background-color: #ddd;
+}
+
+.bgc-black {
+    background-color: #000000d6;
+}

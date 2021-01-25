@@ -4,12 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vue-Hello</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap" rel="stylesheet"> 
     <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
 </head>
 <body>
 
-    
+    <div id="hello" :class="bgColor">
+        
+        <div class="inner">
+            <img :src="src" :alt="alt" :class="logoFormat">
+            <h1 :class="color">{{message}}</h1>
+            <button :class="color" @click="inverter">{{textButton}}</button>
+        </div>
+
+    </div>
 
     <script src="js/script.js"></script>
 </body>
-</html>l
+</html>
